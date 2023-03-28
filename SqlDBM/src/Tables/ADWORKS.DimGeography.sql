@@ -3,7 +3,7 @@
 
 
 -- ************************************** ADWORKS.DimGeography
-CREATE TABLE ADWORKS.DimGeography
+CREATE OR REPLACE TABLE ADWORKS.DimGeography
 (
  GeographyKey             number(38,0) NOT NULL AUTOINCREMENT START 1 INCREMENT 1,
  City                     varchar(30),
@@ -16,6 +16,7 @@ CREATE TABLE ADWORKS.DimGeography
  PostalCode               varchar(15),
  SalesTerritoryKey        number(38,0),
  IpAddressLocator         varchar(15),
+ id                       integer NOT NULL,
 
  CONSTRAINT PK_DimGeography PRIMARY KEY ( GeographyKey )
 );
