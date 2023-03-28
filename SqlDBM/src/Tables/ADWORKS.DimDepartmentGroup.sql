@@ -3,7 +3,7 @@
 
 
 -- ************************************** ADWORKS.DimDepartmentGroup
-CREATE TABLE ADWORKS.DimDepartmentGroup
+CREATE OR REPLACE TABLE ADWORKS.DimDepartmentGroup
 (
  DepartmentGroupKey       number(38,0) NOT NULL AUTOINCREMENT START 1 INCREMENT 1,
  ParentDepartmentGroupKey number(38,0),
