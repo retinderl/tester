@@ -3,7 +3,7 @@
 
 
 -- ************************************** ADWORKS.FactResellerSales
-CREATE TABLE ADWORKS.FactResellerSales
+CREATE OR REPLACE TABLE ADWORKS.FactResellerSales
 (
  SalesOrderNumber        varchar(20) NOT NULL,
  "Product Key"             number(38,0) NOT NULL,
