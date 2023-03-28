@@ -3,7 +3,7 @@
 
 
 -- ************************************** table_34_1
-CREATE TABLE table_34_1
+CREATE OR REPLACE TABLE table_34_1
 (
  username          varchar(50) NOT NULL, -- From template: "UserMeta"
  date              datetime NOT NULL, -- From template: "UserMeta"
