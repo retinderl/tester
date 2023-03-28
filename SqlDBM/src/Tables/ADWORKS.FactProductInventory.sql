@@ -3,7 +3,7 @@
 
 
 -- ************************************** ADWORKS.FactProductInventory
-CREATE TABLE ADWORKS.FactProductInventory
+CREATE OR REPLACE TABLE ADWORKS.FactProductInventory
 (
  ProductKey   number(38,0) NOT NULL,
  DateKey      number(38,0) NOT NULL,
