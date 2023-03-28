@@ -3,7 +3,7 @@
 
 
 -- ************************************** ADWORKS.FactSalesQuota
-CREATE TABLE ADWORKS.FactSalesQuota
+CREATE OR REPLACE TABLE ADWORKS.FactSalesQuota
 (
  SalesQuotaKey    number(38,0) NOT NULL AUTOINCREMENT START 1 INCREMENT 1,
  EmployeeKey      number(38,0) NOT NULL,
