@@ -3,7 +3,7 @@
 
 
 -- ************************************** ADWORKS.DimDate
-CREATE TABLE ADWORKS.DimDate
+CREATE OR REPLACE TABLE ADWORKS.DimDate
 (
  DateKey              number(38,0) NOT NULL,
  FullDateAlternateKey date NOT NULL,

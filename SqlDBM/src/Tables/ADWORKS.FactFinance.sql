@@ -3,7 +3,7 @@
 
 
 -- ************************************** ADWORKS.FactFinance
-CREATE TABLE ADWORKS.FactFinance
+CREATE OR REPLACE TABLE ADWORKS.FactFinance
 (
  FinanceKey         number(38,0) NOT NULL AUTOINCREMENT START 1 INCREMENT 1,
  DateKey            number(38,0) NOT NULL,

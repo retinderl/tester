@@ -3,7 +3,7 @@
 
 
 -- ************************************** ADWORKS.DimCustomer
-CREATE TABLE ADWORKS.DimCustomer
+CREATE OR REPLACE TABLE ADWORKS.DimCustomer
 (
  CustomerKey2         number(38,0) NOT NULL AUTOINCREMENT START 1 INCREMENT 1 COMMENT 'Customer Identifier',
  GeographyKey333      number(38,0) COMMENT 'Geographic informatio',

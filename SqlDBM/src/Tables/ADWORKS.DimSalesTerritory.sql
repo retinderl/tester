@@ -3,7 +3,7 @@
 
 
 -- ************************************** ADWORKS.DimSalesTerritory
-CREATE TABLE ADWORKS.DimSalesTerritory
+CREATE OR REPLACE TABLE ADWORKS.DimSalesTerritory
 (
  SalesTerritoryKey          number(38,0) NOT NULL AUTOINCREMENT START 1 INCREMENT 1,
  SalesTerritoryAlternateKey number(38,0),

@@ -3,7 +3,7 @@
 
 
 -- ************************************** table_31
-CREATE TABLE table_31
+CREATE OR REPLACE TABLE table_31
 (
  id       integer NOT NULL,
  username varchar(50) NOT NULL, -- From template: "UserMeta"

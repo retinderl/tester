@@ -3,13 +3,14 @@
 
 
 -- ************************************** ADWORKS.DimProductCategory
-CREATE TABLE ADWORKS.DimProductCategory
+CREATE OR REPLACE TABLE ADWORKS.DimProductCategory
 (
  ProductCategoryKey          number(38,0) NOT NULL AUTOINCREMENT START 1 INCREMENT 1,
  ProductCategoryAlternateKey number(38,0),
  EnglishProductCategoryName  varchar(50) NOT NULL,
  SpanishProductCategoryName  varchar(50) NOT NULL,
  FrenchProductCategoryName   varchar(50) NOT NULL,
+ id                          integer NOT NULL,
 
  CONSTRAINT PK_DimProductCategory PRIMARY KEY ( ProductCategoryKey )
 );

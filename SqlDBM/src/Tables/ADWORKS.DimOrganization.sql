@@ -3,7 +3,7 @@
 
 
 -- ************************************** ADWORKS.DimOrganization
-CREATE TABLE ADWORKS.DimOrganization
+CREATE OR REPLACE TABLE ADWORKS.DimOrganization
 (
  OrganizationKey       number(38,0) NOT NULL AUTOINCREMENT START 1 INCREMENT 1,
  tester                number(38,0),
