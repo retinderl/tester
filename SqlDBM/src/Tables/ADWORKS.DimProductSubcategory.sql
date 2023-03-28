@@ -3,7 +3,7 @@
 
 
 -- ************************************** ADWORKS.DimProductSubcategory
-CREATE TABLE ADWORKS.DimProductSubcategory
+CREATE OR REPLACE TABLE ADWORKS.DimProductSubcategory
 (
  ProductSubcategoryKey          number(38,0) NOT NULL AUTOINCREMENT START 1 INCREMENT 1,
  ProductSubcategoryAlternateKey number(38,0),
