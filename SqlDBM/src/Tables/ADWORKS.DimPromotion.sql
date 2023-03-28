@@ -3,7 +3,7 @@
 
 
 -- ************************************** ADWORKS.DimPromotion
-CREATE TABLE ADWORKS.DimPromotion
+CREATE OR REPLACE TABLE ADWORKS.DimPromotion
 (
  PromotionKey             number(38,0) NOT NULL AUTOINCREMENT START 1 INCREMENT 1,
  PromotionAlternateKey    number(38,0),
