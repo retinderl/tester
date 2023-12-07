@@ -3,11 +3,11 @@
 
 
 
--- ************************************** table_26
+-- ************************************** table_21
 
-CREATE TABLE table_26
+CREATE TABLE table_21
 (
 created_by string NOT NULL OPTIONS(description = 'user who created the entery'), -- From template: "meta_data_inherite"
 created_on timestamp NOT NULL OPTIONS(description = 'timestamps when the entry was created') -- From template: "meta_data_inherite"
 )
-OPTIONS(friendly_name = 'table_26');
+OPTIONS(friendly_name = 'table_21');
