@@ -3,7 +3,7 @@
 
 
 -- ************************************** table_27
-CREATE TABLE table_27
+CREATE OR REPLACE TABLE table_27
 (
  id       integer NOT NULL DEFAULT Sequence_1.nextval,
  username varchar(50) NOT NULL, -- From template: "UserMeta"

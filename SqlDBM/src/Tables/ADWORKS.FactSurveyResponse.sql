@@ -3,7 +3,7 @@
 
 
 -- ************************************** ADWORKS.FactSurveyResponse
-CREATE TABLE ADWORKS.FactSurveyResponse
+CREATE OR REPLACE TABLE ADWORKS.FactSurveyResponse
 (
  SurveyResponseKey             number(38,0) NOT NULL AUTOINCREMENT START 1 INCREMENT 1,
  DateKey                       number(38,0) NOT NULL,

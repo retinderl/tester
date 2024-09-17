@@ -3,7 +3,7 @@
 
 
 -- ************************************** employeeReselling
-CREATE TABLE employeeReselling
+CREATE OR REPLACE TABLE employeeReselling
 (
  EmployeeKey number(38,0) NOT NULL,
 

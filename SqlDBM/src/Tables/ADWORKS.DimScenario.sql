@@ -3,7 +3,7 @@
 
 
 -- ************************************** ADWORKS.DimScenario
-CREATE TABLE ADWORKS.DimScenario
+CREATE OR REPLACE TABLE ADWORKS.DimScenario
 (
  ScenarioKey  number(38,0) NOT NULL AUTOINCREMENT START 1 INCREMENT 1 COMMENT 'Scenario Identifier',
  ScenarioName varchar(50) COMMENT 'Name of the Scenario',

@@ -3,7 +3,7 @@
 
 
 -- ************************************** ADWORKS.NewFactCurrencyRate
-CREATE TABLE ADWORKS.NewFactCurrencyRate
+CREATE OR REPLACE TABLE ADWORKS.NewFactCurrencyRate
 (
  AverageRate111 float,
  CurrencyID     varchar(3),

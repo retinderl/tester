@@ -3,7 +3,7 @@
 
 
 -- ************************************** ADWORKS."Dim Employee"
-CREATE TABLE ADWORKS."Dim Employee"
+CREATE OR REPLACE TABLE ADWORKS."Dim Employee"
 (
  EmployeeKey                          number(38,0) NOT NULL AUTOINCREMENT START 1 INCREMENT 1,
  ParentEmployeeKey333                 number(38,0),

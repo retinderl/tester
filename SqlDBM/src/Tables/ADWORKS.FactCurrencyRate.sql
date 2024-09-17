@@ -3,7 +3,7 @@
 
 
 -- ************************************** ADWORKS.FactCurrencyRate
-CREATE TABLE ADWORKS.FactCurrencyRate
+CREATE OR REPLACE TABLE ADWORKS.FactCurrencyRate
 (
  CurrencyKey  number(38,0) NOT NULL,
  DateKey      number(38,0) NOT NULL,

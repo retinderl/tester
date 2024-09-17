@@ -3,7 +3,7 @@
 
 
 -- ************************************** table_31_1
-CREATE TABLE table_31_1
+CREATE OR REPLACE TABLE table_31_1
 (
  username varchar(50) NOT NULL,
  date     datetime NOT NULL,

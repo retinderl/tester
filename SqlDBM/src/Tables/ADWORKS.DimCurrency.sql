@@ -3,11 +3,12 @@
 
 
 -- ************************************** ADWORKS.DimCurrency
-CREATE TABLE ADWORKS.DimCurrency
+CREATE OR REPLACE TABLE ADWORKS.DimCurrency
 (
  CurrencyKey          number(38,0) NOT NULL AUTOINCREMENT START 1 INCREMENT 1 COMMENT 'Currency Identifier',
- CurrencyAlternateKey varchar(3) NOT NULL COMMENT 'Alternate Currency Identifier',
+ CurrencyAlternateKey dsf NOT NULL COMMENT 'Alternate Currency Identifier',
  CurrencyName22       varchar(50) NOT NULL COMMENT 'Name of the Currency',
+ id                    NOT NULL,
 
  CONSTRAINT PK_DimCurrency PRIMARY KEY ( CurrencyKey )
 )

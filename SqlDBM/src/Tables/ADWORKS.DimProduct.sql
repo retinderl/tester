@@ -3,7 +3,7 @@
 
 
 -- ************************************** ADWORKS.DimProduct
-CREATE TABLE ADWORKS.DimProduct
+CREATE OR REPLACE TABLE ADWORKS.DimProduct
 (
  ProductKey            number(38,0) NOT NULL AUTOINCREMENT START 1 INCREMENT 1,
  ProductAlternateKey   varchar(25),
